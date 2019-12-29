@@ -79,4 +79,4 @@ All implementations are modular and can be applied to any dataset provided throu
 
 <b>Probabilistic Matrix Factorization</b>
 
-<code> $ python3 ProbabilisticMatrixFactorization.py Ratings.csv </code>s
+<code> $ python3 ProbabilisticMatrixFactorization.py Ratings.csv </code>
