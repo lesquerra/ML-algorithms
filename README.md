@@ -51,6 +51,8 @@ Plug-in classifier (discriminative model) which aims to predict for a given inpu
 
 Seeks to learn the underlying structure of an input data x.
 
+### Clustering
+
 #### K-Means (non-probabilistic)
 
 Simple hard-clustering algorithm. Given input data x, it aims to predict vector c of cluster assignments and K mean vectors mu. 
@@ -63,7 +65,7 @@ Soft-clustering algorithm. Given input data x, it breaks data across the K clust
 
 To estimate this cluster probability distribution, the Expectation-Minimization (EM) algorithm is used in combination with K Gaussian generative distributions.
 
-#### Probabilistic Matrix Factorization (probabilistic)
+### Probabilistic Matrix Factorization
 
 Assuming a low rank rating data matrix is provided, this alorithm aims to factorize it into the product of two (also) low rank matrices U and V; reducing computational complexity. 
 
